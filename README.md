@@ -1,6 +1,6 @@
-## 🎉 Birthday Greeting Webpage 
+## 🎉 Birthday Wishes Website
 
-[Demo](https://fajarghifar.github.io/happybirthday/)
+[Live Demo](https://danielgithiomi.github.io/Happy_Birthday/)
 
 ## 🚀 How to Use
 
@@ -8,10 +8,10 @@
 
     ```bash
     # Clone this repository or download it
-    $ git clone https://github.com/fajarghifar/happybirthday
+    $ git clone https://danielgithiomi.github.io/Happy_Birthday/
 
     # Go into the repository
-    $ cd happybirthday
+    $ cd Happy_Birthday
 
     # Open it with your text editor
     $ code .
@@ -33,7 +33,6 @@ If you have any ideas to make it more interesting, please submit a pull request 
 
 ### [MIT](LICENSE)
 
-> Github [@fajarghifar](https://github.com/fajarghifar) &nbsp;&middot;&nbsp;
-> Youtube [@fajarghifar](https://www.youtube.com/@fajarghifar/) &nbsp;&middot;&nbsp;
-> Instagram [@fajarghifar](https://instagram.com/fajarghifar) &nbsp;&middot;&nbsp;
-> Linkedin [@fajarghifar](https://www.linkedin.com/in/fajarghifar/)
+> Github [@danielgithiomi](https://github.com/danielgithiomi) &nbsp;&middot;&nbsp;
+> Instagram [@danielgithiomi](https://instagram.com/danielgithiomi) &nbsp;&middot;&nbsp;
+> Linkedin [@daniel-githiomi](https://www.linkedin.com/in/daniel-githiomi/)
