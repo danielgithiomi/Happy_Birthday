@@ -227,6 +227,8 @@ body {
 #replay {
   cursor: pointer;
   z-index: 3;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 /* Media Queries */
