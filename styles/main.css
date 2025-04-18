@@ -188,15 +188,9 @@ body {
 }
 
 .wish-hbd {
-  font-size: 3em;
+  font-size: 2em;
   margin: 0;
   text-transform: uppercase;
-}
-
-.wish h5 {
-  font-size: 2rem;
-  font-weight: lighter;
-  margin: 10px 0 0;
 }
 
 .nine p {
@@ -209,6 +203,12 @@ body {
   z-index: 3;
   font-weight: bold;
   text-decoration: underline;
+}
+
+.six {
+  position: relative;
+  z-index: 1;
+  top: 13vh;
 }
 
 /* Photo Grid Styles */
@@ -224,11 +224,8 @@ body {
 }
 
 .grid-item {
-  background: #ccc;
   overflow: hidden;
   border-radius: 5px;
-  transform: scale(0);
-  opacity: 0;
 }
 
 .grid-item img {
@@ -238,7 +235,7 @@ body {
 }
 
 .animate-in {
-  animation: popIn 0.5s ease-out forwards;
+  animation: popIn 0.5s ease-out linear;
 }
 
 @keyframes popIn {
@@ -279,30 +276,6 @@ body {
 }
 
 /* Media Queries */
-@media screen and (max-height: 1000px) {
-  .six .hat {
-    left: 40%;
-  }
-}
-
-@media screen and (max-height: 800px) {
-  .six .hat {
-    left: 37%;
-  }
-}
-
-@media screen and (max-height: 700px) {
-  .six .hat {
-    left: 32%;
-  }
-}
-
-@media screen and (max-height: 850px) and (max-width: 450px) {
-  .six .hat {
-    left: 32%;
-  }
-}
-
 @media screen and (max-width: 500px) {
   .container {
     width: 90%;
@@ -323,11 +296,6 @@ body {
 
   .idea-6 span {
     font-size: 10rem;
-  }
-
-  .six .hat {
-    /* top: -20px; */
-    width: 50px;
   }
 
   .wish-hbd {
