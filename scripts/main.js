@@ -18,6 +18,16 @@ window.addEventListener('load', () => {
     });
 });
 
+// photo grid animation
+const items = document.querySelectorAll('.grid-item');
+
+items.forEach((item, index) => {
+    const delay = Math.random() * 1000; // random delay up to 1s
+    setTimeout(() => {
+        item.classList.add('animate-in');
+    }, delay);
+});
+
 
 // animation timeline
 const animationTimeline = () => {
