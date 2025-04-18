@@ -31,13 +31,8 @@ const animationTimeline = () => {
 
     // split chars that needs to be animated individually
     const textBoxChars = document.getElementsByClassName("hbd-chatbox")[0];
-    const hbd = document.getElementsByClassName("wish-hbd")[0];
 
     textBoxChars.innerHTML = `<span>${textBoxChars.innerHTML
-        .split("")
-        .join("</span><span>")}</span>`;
-
-    hbd.innerHTML = `<span>${hbd.innerHTML
         .split("")
         .join("</span><span>")}</span>`;
 
@@ -128,7 +123,7 @@ const animationTimeline = () => {
             opacity: 0,
             y: 30,
             zIndex: "-1"
-        }, "+=15")
+        }, "+=12")
         .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
         .to(".last-smile", 0.5, { rotation: 90 }, "+=1");
 

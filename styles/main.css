@@ -92,7 +92,7 @@ body {
   font-size: 4rem;
 }
 
-.idea-5 span, .idea-6 span, .wish-hbd span {
+.idea-5 span, .idea-6 span {
   display: inline-block;
 }
 
@@ -189,7 +189,6 @@ body {
 
 .wish-hbd {
   font-size: 2em;
-  margin: 0;
   text-transform: uppercase;
 }
 
@@ -232,6 +231,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .animate-in {
@@ -253,6 +253,10 @@ body {
 .item1 {
   grid-column: 1 / 3;
   grid-row: 1 / 2;
+
+  img {
+    object-position: top;
+  }
 }
 
 .item2 {
@@ -296,14 +300,6 @@ body {
 
   .idea-6 span {
     font-size: 10rem;
-  }
-
-  .wish-hbd {
-    font-size: 2.2em;
-  }
-
-  .wish h5 {
-    font-size: 1.4rem;
   }
 
   .nine p {
