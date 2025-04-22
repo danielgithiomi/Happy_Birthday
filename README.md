@@ -1,10 +1,10 @@
-## 🎉 Birthday Wishes Website
+# 🎉 Birthday Wishes Website
 
 [Live Demo](https://danielgithiomi.github.io/Happy_Birthday/)
 
 ## 🚀 How to Use
 
-1.  **Clone Repository**
+1. **Clone Repository**
 
     ```bash
     # Clone this repository or download it
