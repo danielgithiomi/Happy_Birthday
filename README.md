@@ -31,7 +31,7 @@ If you have any ideas to make it more interesting, please submit a pull request 
 
 ## 🤝 License
 
-### [MIT](LICENSE)
+### [View MIT License](LICENSE)
 
 > Github [@danielgithiomi](https://github.com/danielgithiomi) &nbsp;&middot;&nbsp;
 > Instagram [@danielgithiomi](https://instagram.com/danielgithiomi) &nbsp;&middot;&nbsp;
